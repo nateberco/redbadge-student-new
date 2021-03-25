@@ -1,7 +1,13 @@
 import React from "react";
+import StateExample from './components/StateExample';
+
 
 function App() {
-  return <div></div>;
+  return (
+    <div>
+      <StateExample />
+    </div>
+  )
 }
 
 export default App;
