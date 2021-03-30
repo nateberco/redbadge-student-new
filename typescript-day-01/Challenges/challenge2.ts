@@ -1,6 +1,6 @@
 // PROBLEM 2
 
-function convertToDegreeCelcus(temps: number[]) {
+function convertToDegreeCelcus(temps: number[]|string[]) {
   return temps.map((singleTemp) => Math.floor(((+singleTemp - 32) * 5) / 9));
 }
 

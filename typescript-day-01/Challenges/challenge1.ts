@@ -7,8 +7,8 @@ let myAddress: {
   city: string;
   zipcode: number;
 } = {
-  number: "1245",
+  number: 1245,
   streetName: "Coding Plains Ct",
   city: "Indianapolis",
-  zipcode: "46239",
+  zipcode: 46239,
 };
